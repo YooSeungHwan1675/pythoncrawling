@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_36417e7257b068710d8c75e75a7cd607 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_36417e7257b068710d8c75e75a7cd607" ></div>
+        
+</body>
+<script>    
+    
+            var map_36417e7257b068710d8c75e75a7cd607 = L.map(
+                "map_36417e7257b068710d8c75e75a7cd607",
+                {
+                    center: [37.56961146, 126.9840133],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 17,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_977a6c1a6dc82559db9853f531119ef1 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_36417e7257b068710d8c75e75a7cd607);
+        
+    
+            var marker_9866f86e5a66ebbc32f9f58449d3d4d1 = L.marker(
+                [37.569918, 126.984528],
+                {}
+            ).addTo(map_36417e7257b068710d8c75e75a7cd607);
+        
+    
+        var popup_b5b63df71c953401322212ac2f6b5c53 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_36d1dc6674717b5dbadcf2b2625040f1 = $(`<div id="html_36d1dc6674717b5dbadcf2b2625040f1" style="width: 100.0%; height: 100.0%;">스타벅스 종각점</div>`)[0];
+                popup_b5b63df71c953401322212ac2f6b5c53.setContent(html_36d1dc6674717b5dbadcf2b2625040f1);
+            
+        
+
+        marker_9866f86e5a66ebbc32f9f58449d3d4d1.bindPopup(popup_b5b63df71c953401322212ac2f6b5c53)
+        ;
+
+        
+    
+    
+            var marker_39e7743fcdd2338f4a52c962b69a880c = L.marker(
+                [37.569058, 126.986013],
+                {}
+            ).addTo(map_36417e7257b068710d8c75e75a7cd607);
+        
+    
+        var popup_fc2a7e866167c8577af7ef7b9a9d426e = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_e4c1b24ff7aa8a1b30201cc819a6f9a2 = $(`<div id="html_e4c1b24ff7aa8a1b30201cc819a6f9a2" style="width: 100.0%; height: 100.0%;">스타벅스 종로관철점</div>`)[0];
+                popup_fc2a7e866167c8577af7ef7b9a9d426e.setContent(html_e4c1b24ff7aa8a1b30201cc819a6f9a2);
+            
+        
+
+        marker_39e7743fcdd2338f4a52c962b69a880c.bindPopup(popup_fc2a7e866167c8577af7ef7b9a9d426e)
+        ;
+
+        
+    
+    
+            var marker_e3e6f7214db457ec3db1918d4d6493f9 = L.marker(
+                [37.572662, 126.981138],
+                {}
+            ).addTo(map_36417e7257b068710d8c75e75a7cd607);
+        
+    
+        var popup_8e5e609f46e79960d989fc1a787eba23 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_33e710ff26dd8f1879915bc527055c8d = $(`<div id="html_33e710ff26dd8f1879915bc527055c8d" style="width: 100.0%; height: 100.0%;">스타벅스 종로구청점</div>`)[0];
+                popup_8e5e609f46e79960d989fc1a787eba23.setContent(html_33e710ff26dd8f1879915bc527055c8d);
+            
+        
+
+        marker_e3e6f7214db457ec3db1918d4d6493f9.bindPopup(popup_8e5e609f46e79960d989fc1a787eba23)
+        ;
+
+        
+    
+</script>
